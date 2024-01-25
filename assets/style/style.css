@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+main{
+  padding-top: 90px;
+}
 .debug {
   border: 1px solid black;
 }
@@ -16,8 +19,18 @@
   flex-wrap: wrap;
 }
 
-.pd-100{
+.pt-100 {
   padding-top: 100px;
+}
+
+.pt-60{
+  padding-top: 60px;
+}
+
+.link {
+  background-color: #0061ff;
+  color: white;
+  padding: 10px 15px;
 }
 
 body {
@@ -41,6 +54,7 @@ a {
 header {
   width: 100%;
   position: fixed;
+  z-index: 999;
   background-color: white;
 }
 
@@ -49,17 +63,18 @@ header .row {
   padding: 25px 20px;
 }
 
+header .row .col{
+  align-items: center;
+}
+
 header .row .logo {
-  width: 20%;
+  width: 130px;
+  flex-shrink: 0;
 }
 
 header .row li {
   padding: 10px 15px;
   color: black;
-}
-
-header .link {
-  background-color: #0061ff;
 }
 
 header .link a {
@@ -72,7 +87,7 @@ header .link a {
 
 #jumbotron {
   background-color: #b4d0e7;
-  height: calc(100vh - 100px);
+  height: 750px;
   width: 100%;
 }
 
@@ -81,8 +96,36 @@ header .link a {
   margin: 0 auto;
 }
 
-.container-big h1{
+.container-big h1 {
   font-size: 4rem;
+}
+
+.container-big .box-text {
+  width: 30%;
+  position: relative;
+  height: 400px;
+}
+
+.container-big .box-text p{
+  margin-bottom: 40px;
+}
+
+.container-big .box-text div{
+  margin-bottom: 40px ;
+}
+
+.container-big .box-text div.arrow{
+  
+}
+
+.container-big .box-text div i{
+  font-size: 3rem;
+  position: absolute;
+  bottom: 20px;
+}
+
+.container-big .box-image {
+  width: 70%;
 }
 
 /* plans */
@@ -91,4 +134,22 @@ header .link a {
   max-width: 1000px;
   height: 400px;
   margin: 0 auto;
+}
+
+.container-small h2 {
+  font-size: 2rem;
+}
+
+.cards {
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+  border: 1px solid #9b9b9b;
+}
+
+.card .top-card {
+  border: 1px solid #9b9b9b;
 }
