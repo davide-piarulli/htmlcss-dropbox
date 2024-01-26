@@ -281,10 +281,6 @@ ul.check li span {
   margin-top: 150px;
 }
 
-#business .container-small{
-  height: 800px;
-}
-
 #business .container-small .bs-cards{
   margin-top: 60px;
   justify-content: space-between;
@@ -295,9 +291,17 @@ ul.check li span {
   /* background-color: yellow; */
   width: calc(100% / 3);
   padding: 0 25px;
+  margin-bottom: 50px;
 }
 
 #business .bs-card h3{
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
+
+/* SEZIONE TESTO BUSINESS */
+
+#business-text{
+  margin-top: 150px;
+}
+
