@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-main{
+main {
   padding-top: 90px;
 }
+
 .debug {
   border: 1px solid black;
 }
@@ -23,7 +24,7 @@ main{
   padding-top: 100px;
 }
 
-.pt-60{
+.pt-60 {
   padding-top: 60px;
 }
 
@@ -63,7 +64,7 @@ header .row {
   padding: 25px 20px;
 }
 
-header .row .col{
+header .row .col {
   align-items: center;
 }
 
@@ -107,15 +108,15 @@ header .link a {
   height: 400px;
 }
 
-.container-big .box-text p{
+.container-big .box-text p {
   margin-bottom: 40px;
 }
 
-.container-big .box-text div{
-  margin-bottom: 40px ;
+.container-big .box-text div {
+  margin-bottom: 40px;
 }
 
-.container-big .box-text div i{
+.container-big .box-text div i {
   font-size: 3rem;
   position: absolute;
   bottom: 20px;
@@ -138,7 +139,7 @@ header .link a {
   font-weight: 700;
 }
 
-.container-small .radios div{
+.container-small .radios div {
   margin-top: 40px;
   margin-right: 20px;
 }
@@ -164,23 +165,23 @@ header .link a {
   margin: 40px 30px;
 }
 
-.bottom-card h3{
+.bottom-card h3 {
   margin-bottom: 20px;
 }
 
-.bottom-card div{
+.bottom-card div {
   margin-bottom: 20px;
 }
 
-.bottom-card div p:{
+.bottom-card div p: {
   font-weight: bold;
 }
 
-.card .bottom-card .price p::before{
+.card .bottom-card .price p::before {
   content: "€ ";
 }
 
-.card .bottom-card .acquista a{
+.card .bottom-card .acquista a {
   text-decoration: underline;
 }
 
@@ -193,7 +194,7 @@ header .link a {
   padding: 40px 0;
 }
 
-ul.stile li{
+ul.stile li {
   font-family: FontAwesome;
 }
 
@@ -211,33 +212,33 @@ ul.check li span {
   color: black;
 }
 
-.card .bottom-card .top-nav ul li:nth-child(1){
+.card .bottom-card .top-nav ul li:nth-child(1) {
   list-style-type: "\f007";
 }
 
-.card .bottom-card .top-nav ul li:nth-child(2){
+.card .bottom-card .top-nav ul li:nth-child(2) {
   list-style-type: "\f07b";
 }
 
-.card .bottom-card .top-nav ul li:nth-child(3){
+.card .bottom-card .top-nav ul li:nth-child(3) {
   list-style-type: "\f1e0";
 }
 
-.card .border{
+.card .border {
   border-bottom: 1px solid #9b9b9b;
   width: 50px;
 }
 
 /* CARD BIG */
 
-.card-big{
+.card-big {
   margin-top: 50px;
   width: 1000px;
   height: 260px;
   border: 1px solid #9b9b9b;
 }
 
-.card-big .bottom-card{
+.card-big .bottom-card {
   position: relative;
 }
 
@@ -249,68 +250,69 @@ ul.check li span {
 
 /* sezione contatto */
 
-#contatto{
+#contatto {
   margin-top: 150px;
 }
 
-#contatto .container-small .box-image{
+#contatto .container-small .box-image {
   width: 60%;
 }
 
-#contatto .container-small .box-text{
+#contatto .container-small .box-text {
   width: 40%;
   margin: 60px 50px;
 }
 
-#contatto .container-small .box-text h3{
+#contatto .container-small .box-text h3 {
   font-size: 1.5rem;
   margin-bottom: 25px;
 }
 
-#contatto .container-small .box-text p{
+#contatto .container-small .box-text p {
   margin-bottom: 40px;
 }
-#contatto .container-small .box-text a{
+
+#contatto .container-small .box-text a {
   border: 1px solid black;
   padding: 10px;
 }
 
 /* sezione operazioni business */
 
-#business{
+#business {
   margin-top: 150px;
 }
 
-#business .container-small .bs-cards{
+#business .container-small .bs-cards {
   margin-top: 60px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#business .container-small .bs-cards .bs-card{
+#business .container-small .bs-cards .bs-card {
   /* background-color: yellow; */
   width: calc(100% / 3);
   padding: 0 25px;
   margin-bottom: 50px;
 }
 
-#business .bs-card h3{
+#business .bs-card h3 {
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
 
 /* SEZIONE TESTO BUSINESS */
 
-#business-text{
+#business-text {
   margin-top: 150px;
   height: 300px;
 }
 
-#business-text h2{
+#business-text h2 {
   margin-bottom: 60px;
 }
 
-#business-text a{
+#business-text a {
   text-decoration: underline;
 }
 
@@ -320,25 +322,118 @@ ul.check li span {
   margin-top: 150px;
 } */
 
-#partner .partner-row .partner-col{
+#partner .partner-row .partner-col {
   aspect-ratio: 1/1;
   width: calc(100vw / 3);
   flex-wrap: wrap;
 }
 
-#partner .partner-row .partner-col .square{
+#partner .partner-row .partner-col .square {
   aspect-ratio: 1/1;
   width: calc(100% / 2);
-  /* position: relative; */
+}
+
+.square-logo {
+  align-items: center;
+  justify-content: center;
+  filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(104deg) brightness(119%) contrast(98%);
+}
+
+.square img {
+  width: 60%;
 }
 
 .partner-col .square:nth-child(1) {
   background-color: #a2d39b;
-  /* color: white; */
-  background-image: url(../img/designit.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  /* position: absolute;
-  top: 50%;
-  left: 50%; */
 }
+
+.partner-col .square:nth-child(2) {
+  background-color: #61082b;
+}
+
+.partner-col .square:nth-child(3) {
+  background-color: #0093ce;
+}
+
+.partner-col .square:nth-child(4) {
+  background-color: #ff1c1c;
+}
+
+.partner-col.right .square:nth-child(1) {
+  background-color: #d5001f;
+}
+
+.partner-col.right .square:nth-child(2) {
+  background-color: #b4d0e7;
+}
+
+.partner-col.right .square:nth-child(3) {
+  background-color: #0d2481;
+}
+
+.partner-col.right .square:nth-child(4) {
+  background-color: #ffd830;
+}
+
+.partner-col.center {
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.partner-col .square-top {
+  height: 25%;
+}
+
+.partner-col .square-top img {
+  width: 45%;
+}
+
+.partner-col hr {
+  width: 100px;
+}
+
+.partner-col.center {}
+
+.partner-col .square-main {
+  overflow: auto;
+  height: 75%;
+}
+
+.partner-col .square-main p {
+  padding: 50px 0;
+}
+
+/* SEZIONE PROVA GRATUITA */
+
+#onboard{
+  background-color: #b4d0e7;
+}
+
+#onboard .container-small{
+  padding: 135px 0;
+}
+
+#onboard .container-small .box-text{
+  width: 50%;
+}
+
+#onboard .container-small .button{
+  width: 50%;
+  text-align: right;
+  position: relative;
+}
+
+#onboard .container-small .button a{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 30px;
+  background-color: white;
+}
+
+#onboard h2{
+  color: #61082b;
+}
+
+/* SEZIONE FAQ */
+
