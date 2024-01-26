@@ -303,5 +303,42 @@ ul.check li span {
 
 #business-text{
   margin-top: 150px;
+  height: 300px;
 }
 
+#business-text h2{
+  margin-bottom: 60px;
+}
+
+#business-text a{
+  text-decoration: underline;
+}
+
+/* SEZIONE PARTNER */
+
+/* #partner{
+  margin-top: 150px;
+} */
+
+#partner .partner-row .partner-col{
+  aspect-ratio: 1/1;
+  width: calc(100vw / 3);
+  flex-wrap: wrap;
+}
+
+#partner .partner-row .partner-col .square{
+  aspect-ratio: 1/1;
+  width: calc(100% / 2);
+  /* position: relative; */
+}
+
+.partner-col .square:nth-child(1) {
+  background-color: #a2d39b;
+  /* color: white; */
+  background-image: url(../img/designit.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+}
