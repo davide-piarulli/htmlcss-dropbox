@@ -437,3 +437,59 @@ ul.check li span {
 
 /* SEZIONE FAQ */
 
+#faq{
+  margin-top: 160px;
+  height: 500px;
+}
+
+#faq .container-small .faq{
+  position: relative;
+  padding: 40px 0;
+}
+
+#faq .container-small .title{
+  padding-bottom: 65px;
+}
+
+#faq .container-small .faq .faq-arrow{
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer .footer-top{
+  padding-top: 100px;
+}
+
+footer .footer-top .menu{
+  width: calc(100% / 5);
+}
+
+footer .footer-top .menu ul{
+  padding: 15px 0;
+}
+
+footer .footer-top .menu ul li{
+  padding-top: 20px;
+}
+
+footer .footer-top .menu ul li a{
+  color: white;
+}
+
+footer hr{
+  width: 10%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+footer .lang{
+  padding-bottom: 50px;
+}
