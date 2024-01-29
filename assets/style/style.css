@@ -94,16 +94,14 @@ header .row .col {
 
 header .row .logo {
   min-width: 100px;
-  /* flex-shrink: 0; */
+}
+
+header .login ul{
+  align-items: center;
 }
 
 header .link a {
   color: white;
-}
-
-header .login ul li:nth-child(2){
-  height: 50px;
-  /* TODO: PULSANTE DA SISTEMARE */
 }
 
 /* main */
@@ -208,7 +206,7 @@ header .login ul li:nth-child(2){
   font-size: 1.5rem;
 }
 
-.bottom-card span{
+.bottom-card p{
   font-size: 0.9rem;
 }
 .bottom-card div {
@@ -382,6 +380,10 @@ ul.check li p {
 #partner .partner-row .partner-col .square {
   aspect-ratio: 1/1;
   width: calc(100% / 2);
+}
+
+.square{
+  justify-content: center;
 }
 
 .square-logo {
