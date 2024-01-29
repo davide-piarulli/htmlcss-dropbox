@@ -251,8 +251,8 @@ ul.check li {
   margin-top: 20px;
 }
 
-ul.stile li span,
-ul.check li span {
+ul.stile li p,
+ul.check li p {
   font-family: 'Open Sans', sans-serif;
   margin-left: 5px;
   color: black;
