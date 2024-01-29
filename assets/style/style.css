@@ -373,10 +373,6 @@ ul.check li span {
 
 /* SEZIONE PARTNER */
 
-/* #partner{
-  margin-top: 150px;
-} */
-
 #partner .partner-row .partner-col {
   aspect-ratio: 1/1;
   width: calc(100vw / 3);
