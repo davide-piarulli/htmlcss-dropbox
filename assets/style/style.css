@@ -25,12 +25,12 @@ main {
   flex-wrap: wrap;
 }
 
-.pt-100 {
-  padding-top: 100px;
+.pt-80 {
+  padding-top: 80px;
 }
 
-.pt-60 {
-  padding-top: 60px;
+.pt-50 {
+  padding-top: 50px;
 }
 
 .link {
@@ -110,7 +110,7 @@ header .link a {
 
 #jumbotron {
   background-color: #b4d0e7;
-  height: 750px;
+  height: 740px;
   width: 100%;
 }
 
@@ -128,7 +128,7 @@ header .link a {
 .container-big .box-text {
   width: 30%;
   position: relative;
-  height: 400px;
+  height: 380px;
 }
 
 .container-big .box-text p {
